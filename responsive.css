@@ -1,0 +1,428 @@
+@media (max-width: 992px){
+    /* header-section */
+    .header-section{
+        width: 100%;
+        
+    }
+    .navbar{
+        display: block;
+    }
+    .sidebar{
+        display: none;
+    }
+    /* hero-section */
+    .hero-section{
+        width: 100%;
+        height: 1000px;
+    }
+    .hero-left h1{
+        position: absolute;
+        left: 195px;
+        top: 245px;
+        font-size: 60px;
+    }
+    .hero-right img{
+        position: absolute;
+        top: 715px;
+        left: 160px;
+        height: 385px;
+    }
+    .hero-left p {
+        position: absolute;
+        left: 200px;
+        top: 455px;
+        font-size: 24px;
+    }
+    .get-started {
+        position: absolute;
+        left: 200px;
+        top: 590px;
+    }
+    .hero-left h6 {
+        position: absolute;
+        left: 200px;
+        top: 700px;
+    }
+    #icons {
+        position: absolute;
+        left: 510px;
+        top: 930px;
+    }
+    #icons2 {
+        position: absolute;
+        left: 510px;
+        top: 980px;
+    }
+    /* feature-section */
+    .feature-section{
+        width: 100%;
+        height: 930px;
+    }
+    .feature-left h1 {
+        position: absolute;
+        left: 280px;
+        top: 75px;
+        font-size: 48px;
+    }
+    .feature-left p {
+        position: absolute;
+        left: 285px;
+        top: 225px;
+        font-size: 20px;
+    }
+    .card-body {
+        width: 251px;
+        height: 220px;
+    }
+    .card-1{
+        position: absolute;
+        top: 360px;
+        left: 200px;
+    }
+    .card-2{
+        position: absolute;
+        top: 360px;
+        left: 550px;
+    }
+    .card-3{
+        position: absolute;
+        bottom: 60px;
+        left: 550px;
+    }
+    .card-4{
+        position: absolute;
+        bottom: 60px;
+        left: 200px;
+    }
+    /* achieve-section */
+
+    .achieve-section{
+        width: 100%;
+    }
+
+    /* testimonial-section */
+    .testimonial-section{
+        width: 100%;
+        height: 850px;
+    }    
+
+    .cardbox1 {
+        position: absolute;
+        top: 176px;
+        left: 230px;
+    }
+    .arrow1 {
+        position: absolute;
+        bottom: 483px;
+        left: 500px;
+    }
+    .cardbox2 {
+        position: absolute;
+        top: 512px;
+        left: 230px;
+    }
+    .arrow2 {
+        position: absolute;
+        bottom: 147px;
+        left: 500px;
+    }
+     /* contact-section */
+     .contact-section{
+        width: 100%;
+        height: 740px;
+    }
+    .contact h1 {
+        position: absolute;
+        left: 170px;
+        top: 40px;
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .contact p {
+        position: absolute;
+        left: 170px;
+        top: 134px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .contact img {
+        width: 410px;
+        height: 330px;
+        border-radius: 30px;
+        position: absolute;
+        top: 270px;
+        left: 170px;
+    }
+    .contact button {
+        position: absolute;
+        bottom: 40px;
+        left: 170px;
+    }
+    /* footer-section */
+    .footer-section{
+        width: 100%;
+    }
+    .footer1 {
+        width: 100%;
+        height: 430px;
+        background: #0F6E8C;
+    }
+    .footer2{
+        width: 100%;
+        height: 70px;
+        background: #05546D;
+        position: relative;
+    }
+    .logo2 {
+        padding-top: 30px;
+        padding-left: 55px;
+    }
+    .footer2 p{
+        padding: 23px 0px 0px 105px;
+    }
+    .icons{
+        position: absolute;
+        right: 75px;
+        top: 24px;
+    }
+}
+
+
+
+
+@media (max-width: 768px){
+    /* header-section */
+    .header-section{
+        width: 100%;
+    }
+    .navbar{
+        display: none;
+    }
+    .sidenav{
+        display: block;
+    }
+    .sidenav ul{
+        list-style: none;
+    }
+    .sidenav ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 23px;
+        letter-spacing: 1.5px;
+        color: #2D2F30;
+    }
+    .sidebar{
+        display: block;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        width: 200px;
+        background: #4d5bf9;
+        height: 600px;
+        z-index: 1000;
+        border-radius: 10px;
+    }
+    .close{
+        color: #ff0000;
+        display: block;
+        padding-top: 20px;
+    }
+
+    .menu-btn {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 0px;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color: #ff5522;
+        border-radius: 7px;
+    }
+
+    .menu-btn:hover{
+        background-color: slateblue;
+    }
+
+    /* hero-section */
+    .hero-section{
+        width: 100%;
+        height: 845px;
+    }
+    .hero-left h1{
+        position: absolute;
+        left: 130px;
+        top: 180px;
+        font-size: 62px;
+    }
+    .hero-left p{
+        position: absolute;
+        left: 135px;
+        top: 360px;
+        font-size: 18px;
+    }
+    .get-started{
+        position: absolute;
+        left: 135px;
+        top: 455px;
+    }
+    
+    .hero-right img{
+        position: absolute;
+        top: 560px;
+        left: 60px;
+        height: 385px;
+    }
+
+    .hero-left h6 {
+        position: absolute;
+        left: 132px;
+        top: 600px;
+    }
+    #icons {
+        position: absolute;
+        left: 425px;
+        top: 800px;
+    }
+    #icons2 {
+        position: absolute;
+        left: 425px;
+        top: 850px;
+    }
+
+    /* feature-section */
+    .feature-section{
+        width: 100%;
+        height: 870px;
+    }
+    .feature-left h1 {
+        position: absolute;
+        left: 135px;
+        top: 75px;
+        font-size: 48px;
+    }
+    .feature-left p {
+        position: absolute;
+        left: 140px;
+        top: 225px;
+        font-size: 20px;
+    }
+    .card-1{
+        position: absolute;
+        top: 360px;
+        left: 110px;
+    }
+    .card-2{
+        position: absolute;
+        top: 360px;
+        left: 400px;
+    }
+    .card-3{
+        position: absolute;
+        bottom: 30px;
+        left: 400px;
+    }
+    .card-4{
+        position: absolute;
+        bottom: 30px;
+        left: 110px;
+    }
+
+    /* achieve-section */
+
+    .achieve-section{
+        width: 100%;
+    }
+
+    /* testimonial-section */
+    .testimonial-section{
+        width: 100%;
+        height: 900px;
+    }    
+
+    .cardbox1 {
+        position: absolute;
+        top: 176px;
+        left: 100px;
+    }
+    .arrow1 {
+        position: absolute;
+        bottom: 483px;
+        left: 365px;
+    }
+    .cardbox2 {
+        position: absolute;
+        top: 512px;
+        left: 100px;
+    }
+    .arrow2 {
+        position: absolute;
+        bottom: 147px;
+        left: 365px;
+    }
+
+    /* contact-section */
+    .contact-section{
+        width: 100%;
+        height: 740px;
+    }
+    .contact h1 {
+        position: absolute;
+        left: 105px;
+        top: 37px;
+        font-size: 48px;
+    }
+    .contact p {
+        position: absolute;
+        left: 105px;
+        top: 134px;
+        font-size: 20px;
+    }
+    .contact button {
+        position: absolute;
+        bottom: 40px;
+        left: 105px;
+    }
+    .contact img {
+        width: 410px;
+        height: 330px;
+        border-radius: 30px;
+        position: absolute;
+        top: 270px;
+        left: 105px;
+    }
+    /* footer-section */
+    .footer-section{
+        width: 100%;
+    }
+    .footer1 {
+        width: 100%;
+        height: 430px;
+        background: #0F6E8C;
+    }
+    .footer2{
+        width: 100%;
+        height: 70px;
+        background: #05546D;
+        position: relative;
+    }
+    .about-us{
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 100px;
+        left: 165px;
+    }
+    .logo2 {
+        padding-top: 25px;
+        padding-left: 30px;
+    }
+    .footer2 p {
+        padding: 23px 0px 0px 105px;
+    }
+    .icons {
+        position: absolute;
+        right: 70px;
+        top: 24px;
+    }
+}
